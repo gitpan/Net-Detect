@@ -1,5 +1,7 @@
 Revision history for Net-Detect
 
+0.2  Sat Apr 20 21:02:32 2013
+    - fix SKIP in test
+
 0.1  Sat Apr 20 20:14:54 2013
        Initial release.
-

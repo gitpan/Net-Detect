@@ -3,7 +3,7 @@ package Net::Detect;
 use strict;
 use warnings;
 
-$Net::Detect::VERSION = '0.1';
+$Net::Detect::VERSION = '0.2';
 
 use Net::Ping ();
 
@@ -38,7 +38,7 @@ Net::Detect - Detect network/internet connectivity
 
 =head1 VERSION
 
-This document describes Net::Detect version 0.1
+This document describes Net::Detect version 0.2
 
 =head1 SYNOPSIS
 
