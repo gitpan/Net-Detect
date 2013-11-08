@@ -10,7 +10,7 @@ WriteMakefile(
     PL_FILES      => {},
     PREREQ_PM     => {
         'Test::More' => 0,
-        'Net::Ping'  => 0,
+        'Net::Ping'  => 2.41,
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES    => 'Net-Detect-*' },

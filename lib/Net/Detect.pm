@@ -3,9 +3,9 @@ package Net::Detect;
 use strict;
 use warnings;
 
-$Net::Detect::VERSION = '0.2';
+$Net::Detect::VERSION = '0.3';
 
-use Net::Ping ();
+use Net::Ping 2.41 ();
 
 sub import {
     no strict 'refs';    ## no critic
@@ -38,7 +38,7 @@ Net::Detect - Detect network/internet connectivity
 
 =head1 VERSION
 
-This document describes Net::Detect version 0.2
+This document describes Net::Detect version 0.3
 
 =head1 SYNOPSIS
 

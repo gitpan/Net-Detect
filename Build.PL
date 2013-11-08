@@ -9,7 +9,7 @@ my $builder = Module::Build->new(
     dist_version_from => 'lib/Net/Detect.pm',
     requires          => {
         'Test::More' => 0,
-        'Net::Ping'  => 0,
+        'Net::Ping'  => 2.41,
     },
     add_to_cleanup => ['Net-Detect-*'],
 );

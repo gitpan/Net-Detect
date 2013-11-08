@@ -18,6 +18,6 @@ no_index:
     - t
     - inc
 requires:
-  Net::Ping: 0
+  Net::Ping: 2.41
   Test::More: 0
-version: 0.2
+version: 0.3
